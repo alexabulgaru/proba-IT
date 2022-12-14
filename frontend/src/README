@@ -1,0 +1,6 @@
+Buna siara! Frontend a fost facut cu React (si cu multa iubire), asa ca pretty please un npm start la inceput. Doar daca ai Linux - din start nu prea-ti place viata - este posibil sa fie nevoie si de un npm audit fix --force inainte, apoi te rogi sa-ti mai mearga laptop-ul in urmatorii ani de facultate si te intorci la npm start.
+In App.js am facut doar import pentru toate elementelele paginii, incepand cu header -nav-, apoi corpul propriu-zis si terminand cu footer.
+In header m-am ocupat si de Popup-uri, apare sigla in stanga cu MemeIt, iar in dreapta (dupa multe eforturi) apar butoanele de Creare cont si Logare cu Popup-urile aferente.
+Corpul l-am impartit in linii si coloane astfel incat sa aiba un responsiveness *decent*.  De la prima linie se coboara la urmatoare in urma apasarii butonului "Upload a meme", iar la aceasta din urma se pot incarca operele de arta.
+In footer avem reclama foarte putin mascata la insta, twitch si facebook.
+Proiect sponsorizat emotional de react-bootstrap (se poate si monetar ca suntem studenti totusi) si de nervii lui Codrut care raspunde la orice ora. :D 
