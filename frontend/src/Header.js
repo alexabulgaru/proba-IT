@@ -70,7 +70,7 @@ export default function Header() {
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <Button className="Button" onClick={handleCloseA}>
+                <Button className="Button btn" onClick={handleCloseA}>
                 Logare
                 </Button>
             </Modal.Footer>
@@ -87,7 +87,7 @@ export default function Header() {
                     </div>
                     <div className="container">
                         <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" Id="exampleForm.ControlInput1">
                                 <Form.Label>Username</Form.Label>
                                 <Form.Control
                                     type="username"
@@ -95,7 +95,7 @@ export default function Header() {
                                     autoFocus
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" Id="exampleForm.ControlInput1">
                                 <Form.Label>Email</Form.Label>
                                 <Form.Control
                                     type="email"
@@ -103,7 +103,7 @@ export default function Header() {
                                     autoFocus
                                 />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-3" Id="exampleForm.ControlInput1">
                                 <Form.Label>Parolă</Form.Label>
                                 <Form.Control
                                     type="parolă"
@@ -116,7 +116,7 @@ export default function Header() {
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <Button className="Button" onClick={handleCloseB}>
+                <Button className="Button btn" onClick={handleCloseB}>
                 Creare cont
                 </Button>
             </Modal.Footer>

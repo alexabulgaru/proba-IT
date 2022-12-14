@@ -11,7 +11,7 @@ export default function Footer() {
     let url2="https://www.twitch.tv/lsac_bucuresti";
     let url3="https://www.facebook.com/LsacBucuresti/";
     return (
-        <div className="main">
+        <div className="page-footer main">
             <div className="social-media">
                 <Row>
                     <Col><a href={url1}> <img src={insta}/> </a></Col>

@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { FileUploader } from 'react-drag-drop-files';
+import './Header.css'
 import './Landing.css';
 
 const fileTypes = ["PNG", "JPG", "JPEG", "GIF"];
@@ -29,7 +30,7 @@ export default function Landing () {
                 <div className="text">
                     <h1>Partajarea de meme-uri nu a fost niciodată mai simplă!</h1>
                     <p>Platforma ideală pentru studenții de la Politehnică, amuzați de câte materii o să pice semnestrul ăsta.</p>
-                    <button className="Button" onClick={handleClickScroll}>Upload a MEME</button>
+                    <button className="Button btn" onClick={handleClickScroll}>Upload a MEME</button>
                 </div>
             </Col>
             <Col> 
@@ -48,7 +49,7 @@ export default function Landing () {
                     </Col>
                     <Col>
                         <Form>
-                            <Form.Group className="mb-4" controlId="exampleForm.ControlInput1">
+                            <Form.Group className="mb-4" Id="exampleForm.ControlInput1">
                                 <Form.Label>Descriere</Form.Label>
                                 <Form.Control
                                     type="descriere"
@@ -58,12 +59,12 @@ export default function Landing () {
                             </Form.Group>
                         </Form>
                         <Form>
-                            <Form.Group className="mb-4" controlId="exampleForm.ControlInput2">
+                            <Form.Group className="mb-4" Id="exampleForm.ControlInput2">
                                 <Form.Label>Meme(jpg, jpeg, png, gif)</Form.Label>
                                 <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
                             </Form.Group>
                         </Form>
-                        <Button className="Button">Trimite</Button>
+                        <Button className="Button btn">Trimite</Button>
                     </Col>
                 </Row>
             </div>

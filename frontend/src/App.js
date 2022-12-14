@@ -6,7 +6,7 @@ import Landing from './Landing';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <div className="header">
         <Header></Header>
       </div>
